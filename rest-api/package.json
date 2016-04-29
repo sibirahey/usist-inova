@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/sibirahey/usist-inova/issues"
   },
-  "homepage": "https://github.com/sibirahey/usist-inova#readme"
+  "homepage": "https://github.com/sibirahey/usist-inova#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4"
+  }
 }
