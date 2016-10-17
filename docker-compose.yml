@@ -1,8 +1,9 @@
 version: '2'
+
 services:
   rest-api:
     build: ./rest-api/.
+    volumes:
+     - ./rest-api:/app
     ports:
      - "3000:3000"
-    volumes:
-     - ./rest-api/src:/app/src
